@@ -13,8 +13,8 @@
   <body>
     <!-- navbar -->
     <div
+      id="sticky-navbar"
       class="border-bottom border-dark d-flex align-items-center"
-      style="background-color: var(--medium-yellow); height: 75px"
     >
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
@@ -71,7 +71,11 @@
     <!-- hero -->
     <div
       class="border-bottom border-dark"
-      style="background-color: var(--medium-yellow); height: 455px"
+      style="
+        background-color: var(--medium-yellow);
+        height: 550px;
+        padding-top: 80px;
+      "
     >
       <div class="container h-100">
         <div class="row h-100">
@@ -86,7 +90,11 @@
               <a
                 href="#"
                 class="btn text-light rounded-pill"
-                style="width: 180px; background-color: #252525"
+                style="
+                  width: 180px;
+                  background-color: #252525;
+                  font-weight: 500;
+                "
                 >Start reading</a
               >
             </div>
@@ -97,7 +105,9 @@
       </div>
     </div>
     <!-- trending -->
-    <div class="container pt-5 pb-1 px-0">
+    <div
+        id="trending" 
+        class="container pt-5 pb-1 px-0">
       <h6 class="d-flex align-items-center" style="gap: 1rem">
         <i class="fa-solid fa-arrow-trend-up"></i>Trending on Medium
       </h6>
@@ -545,7 +555,7 @@
             <a href="#" class="btn rounded-pill aside-tag">Politics</a>
           </div>
           <a href="#" class="link aside-see-more">See more topics</a>
-          <br>
+          <br />
           <hr />
           <div class="aside-links">
             <a href="#" class="link aside-link">Help</a>
@@ -564,5 +574,6 @@
 
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/custom.js"></script>
   </body>
 </html>

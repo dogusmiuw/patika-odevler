@@ -33,6 +33,8 @@ a:hover {
   width: 440px;
   line-height: 26px;
   margin-bottom: 45px;
+  color: rgb(41, 41, 41);
+  font-weight: 500;
 }
 
 .navbar-nav {
@@ -114,7 +116,7 @@ a:hover {
 .aside-heading {
   font-size: 16px;
   font-weight: 500;
-  color:rgba(41, 41, 41, 1);
+  color: rgba(41, 41, 41, 1);
   line-height: 20px;
   margin-bottom: 15px;
 }
@@ -127,19 +129,34 @@ a:hover {
   margin-bottom: 10px;
 }
 .aside-see-more {
-    color: var(--medium-green);
-    font-size: 14px;
-    line-height: 20px;
-    font-weight: 500;
+  color: var(--medium-green);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
 }
 .aside-links {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 .aside-link {
-    color:rgba(117, 117, 117, 1);
-    line-height: 15px;
-    font-size: 14px;
-    font-weight: 500;
+  color: rgba(117, 117, 117, 1);
+  line-height: 15px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+#sticky-navbar {
+  position: fixed;
+  width: 100%;
+  background-color: var(--medium-yellow);
+  height: 75px;
+  z-index: 1;
+  transition: 400ms;
+}
+
+ul.navbar-nav li.nav-item a.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(41, 41, 41);
 }
