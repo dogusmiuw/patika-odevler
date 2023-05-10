@@ -1,0 +1,37 @@
+:root {
+  --medium-yellow: #ffc017;
+}
+
+* {
+  color: black;
+}
+
+.illustration {
+  background: url("../img/Wikipedia_Logo_as_ASCII_Art.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.hero-title {
+  font-size: 106px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.hero-desc {
+    font-size: 24px;
+    width: 440px;
+    line-height: 24px;
+}
+
+.navbar-nav {
+    gap: 1rem;
+}
+
+.article-owner-image {
+    height: 20px;
+}
+
+.text-black {
+    color: black;
+}
